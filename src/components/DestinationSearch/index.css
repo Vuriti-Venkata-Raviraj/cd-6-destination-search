@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Roboto;
+  background-color: #ffffff;
+}
+
+.search-container {
+  background-color: #f1f5f9;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.search-img {
+  height: 20px;
+}
+
+.input {
+  height: 20px;
+  background-color: #f1f5f9;
+  border: 0px;
+  outline: none;
+}
+
+.title {
+  color: #0f172a;
+  font-size: 40px;
+}
+
+.list-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 15px;
+  row-gap: 2rem;
+}
+
+@media (max-width: 576px) {
+  .list-container {
+    justify-content: center;
+    margin: 0px;
+    margin-top: 40px;
+  }
+}
